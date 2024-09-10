@@ -52,3 +52,8 @@ TEST(CPPLibTest, FindMaxHandlesEmptyVector) {
   std::vector<int> inputs = {};
   EXPECT_EQ(cpplib.FindMax(inputs), -1);
 }
+
+TEST(CPPLibTest, FindAverage) {
+  CPPLib cpplib;
+  std::vector<int> inputs = {1, 2, 3, 4, 5}; EXPECT_EQ (cpplib .FindAverage (inputs), 3);
+}

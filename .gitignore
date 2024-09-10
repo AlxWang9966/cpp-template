@@ -6,3 +6,10 @@
 /bazel-template
 /bazel-*
 *.md2
+*.json
+*.json
+*.bazel
+.vscode/settings.json
+*.lock
+*.json
+.vscode/settings.json

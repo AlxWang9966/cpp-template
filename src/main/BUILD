@@ -71,3 +71,12 @@ cc_binary(
     deps = [
     ],
 )
+
+cc_binary(
+    name = "main_test",
+    srcs = ["main_test.cc"],
+    deps = [
+        "//src/lib:CPPLib",
+        "@com_google_googletest//:gtest_main",
+    ],
+)

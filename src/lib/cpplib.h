@@ -18,6 +18,9 @@ class CPPLib {
   // Finds the max element in a vector
   int FindMax(const std::vector<int> &inputs); 
   
+  // Find the average of a vector
+  double FindAverage(std::vector<int>& inputs);
+  
   private : std::map<int, int> _m;
 };
 
